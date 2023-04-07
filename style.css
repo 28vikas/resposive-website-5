@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5{
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.para{
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+}
+
+
+
+.container{
+    width: 98%;
+    margin: 0 auto;
+}
+
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-img{
+    width: 100%;
+    position: relative;
+}
+
+.bg-img img{
+    width: 100%;
+}
+
+.logo{
+    font-size: 2.5rem;
+    color: #F44336;
+}
+
+.nav-bar p::before{
+    font-family: FontAwesome;
+
+    content: "\f124";  
+    padding: 0 1rem;
+    font-size: 20px;
+}
+
+.fa-magnifying-glass{
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+/* .......flight.......... */
+
+
+
+.flight-button-div button::before{
+    
+    font-family: FontAwesome;
+    content: "\f5b0";
+    padding: 0 1rem;
+    font-size: 25px;
+}
+
+.flight-button-div{
+background-color: black;
+
+}
+
+.flight-button-div button{
+  padding: 1rem 1rem;
+  background-color: rgb(237, 84, 84);
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.flight-button-div button:hover{
+    background-color: rgb(193, 187, 187);
+    color: black;
+    cursor: pointer;
+}
+
+.hotel{
+    background-color: black;
+}
+
+.hotel-para{
+    font-size: 1.8rem;
+    padding: 1.5rem 0;
+}
+
+.discount{
+background-color: rgb(245, 114, 26);
+padding: .2rem .2rem;
+}
+
+.flight-div{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    
+    
+}
+
+.form-div{
+    padding: 1.8rem 2rem;
+}
+
+label{
+    font-size: 2rem;
+   
+}
+.label-one {
+
+width: 49%;
+}
+input{
+    padding: .8rem .5rem;
+    width: 100%;
+    display: block;
+    margin: 1rem 0;
+}
+
+
+.form-flex{
+    display: flex;
+    gap: 2%;
+}
+
+.form-div h3{
+    margin: 2rem 0;
+}
+
+.serch-btn button{
+    padding: 1rem 1.8rem;
+    background-color: rgb(67, 65, 65);
+    color: white;
+    border: none;
+}
+
+.serch-btn button:hover{
+    background-color: rgb(175, 172, 172);
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
+/* .----------middle------section */
+
+.middle-section{
+   max-width: 800px;
+    margin: 0 auto;
+
+    height: fit-content;
+    padding: 2rem 0;
+    
+}
+.middle-section p{
+    padding: 2rem 0;
+    font-size: 1.8rem;
+    font-family:  Verdana, sans-serif;
+    font-weight: 100;
+}
+
+
+
+.grid-section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 49.3% 24% 24%;
+    
+    gap: 1rem;
+   
+}
+
+
+
+.img-grid-one{
+    grid-row-start: 1;
+    grid-row-end: 3;
+position: relative;
+
+}
+.img-grid-one img{
+    width: 100%;
+    height: auto;
+
+}
+.img-grid{
+    position: relative;
+}
+
+.img-grid img{
+    width: 100%;
+    height: auto;
+   
+}
+
+.new-york{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+/* .nature ====section */
+
+.nature-section{
+    max-width: 800px;
+    margin: 0 auto;
+
+    height: fit-content;
+    padding: 2rem 0;
+}
+
+.para-travel{
+    padding: 2rem 0;
+}
+.nature-section h3{
+    padding-top: 1rem;
+}
+
+.nature-section p{
+    padding-top: 2rem;
+    font-size: 1.4rem;
+    font-family:  sans-serif;
+    font-weight: 50;
+}
+
+.nature-flex{
+    display: flex;
+    gap: 2%;
+}
+
+.nature-img{
+    width: 49%;
+ 
+}
+
+.nature-img img{
+    width: 100%;
+}
+
+.buy-btn{
+    padding: .8rem 2rem;
+    border: none;
+    margin-top: 1.5rem;
+    background-color: rgb(239, 232, 232);
+}
+
+.buy-btn:hover{
+   background-color: rgb(226, 220, 220);
+   cursor: pointer;
+}
+
+
+
+/* .email---------section---start */
+
+.email-section{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+}
+
+
+.email-section:hover{
+background-color: black;
+}
+
+.email-container{
+    padding: 1.5rem 1.5rem;
+}
+
+.Subscribe-btn{
+    padding: 1rem 1.8rem;
+    font-size: 1.5rem;
+    background-color: #F44336;
+    border: none;
+    color: white;
+    margin: 1rem 0;
+
+}
+
+.Subscribe-btn:hover{
+    background-color: rgb(224, 224, 224);
+    color: black;
+    cursor: pointer;
+}
+
+.email-container p{
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 50;
+}
+
+
+
+/* .contact-----section */
+
+.contact-section{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+   padding: 2rem 0;
+}
+
+.contact-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-flex h3{
+    font-size: 3rem;
+
+}
+
+.contact-flex p{
+    padding-top: 1rem;
+}
+
+.chicago-para{
+    font-size: 1.6rem;
+    padding-top: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.msg-btn{
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.msg-btn:hover{
+    background-color: rgb(221, 217, 217);
+    color: black;
+}
+
+
+/*--------footer----section */
+
+.footer-section{
+    text-align: center;
+    padding: 3rem 0;
+}
+.find-para{
+    font-size: 2rem;
+   color: rgba(0, 0, 0, .6);
+
+}
+
+.fa-twitter, .fa-instagram, .fa-tiktok, .fa-youtube, .fa-linkedin, .fa-google{
+   font-size: 2rem;
+   padding: .5rem .2rem;
+   margin: 3rem 0;
+   color: rgba(0, 0, 0, .6);
+}
+
+.fa-twitter, .fa-instagram, .fa-tiktok, .fa-youtube, .fa-linkedin, .fa-google:hover{
+   color: rgba(0, 0, 0, .4);
+
+}
+
+.power-para a{
+    color: black;
+}
+
+
+
+
+@media (max-width:670px){
+    .bg-img{
+        display: none;
+    }
+    .nature-flex{
+        flex-direction: column;
+    }
+    .nature-img{
+        width: 100%;
+    }
+
+    .grid-section{
+        grid-template-columns: 100%; 
+    }
+    
+    
+
+
+
+}
